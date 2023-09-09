@@ -50,7 +50,7 @@ data = input_data.read_data_sets('data/fashion', source_url='http://fashion-mnis
 
 Also, an official Tensorflow tutorial of using `tf.keras`, a high-level API to train Fashion-MNIST [can be found here](https://www.tensorflow.org/tutorials/keras/classification).
 
-## Model (Trained)
+## Model
 ```python
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Dropout, Flatten, MaxPooling2D
